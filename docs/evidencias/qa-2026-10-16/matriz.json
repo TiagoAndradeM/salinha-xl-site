@@ -1,0 +1,195 @@
+{
+  "rows": [
+    {
+      "client": 1425,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 1425,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "client": 753,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 753,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "client": 345,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 345,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 360
+    },
+    {
+      "client": 305,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 305,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 320
+    },
+    {
+      "client": 1425,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 1425,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "client": 753,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 753,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "client": 345,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 345,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 360
+    },
+    {
+      "client": 305,
+      "h1s": 1,
+      "page": "/index.html",
+      "scroll": 305,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 320
+    },
+    {
+      "client": 1425,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 1425,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 1440
+    },
+    {
+      "client": 753,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 753,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 768
+    },
+    {
+      "client": 345,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 345,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 360
+    },
+    {
+      "client": 305,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 305,
+      "scrollY": 0,
+      "theme": "light",
+      "width": 320
+    },
+    {
+      "client": 1425,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 1425,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 1440
+    },
+    {
+      "client": 753,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 753,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "client": 345,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 345,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 360
+    },
+    {
+      "client": 305,
+      "h1s": 1,
+      "page": "/aprovados.html",
+      "scroll": 305,
+      "scrollY": 0,
+      "theme": "dark",
+      "width": 320
+    }
+  ],
+  "flow": {
+    "themeAfterNavigation": "dark",
+    "menuOpened": "true",
+    "escape": {
+      "active": "menuToggle",
+      "expanded": "false"
+    },
+    "anchor": {
+      "active": "BODY",
+      "expanded": "false",
+      "hash": "#servicos",
+      "page": "/index.html",
+      "theme": "dark"
+    },
+    "nextTab": {
+      "href": "#contato",
+      "tag": "A",
+      "text": "Conversar sobre reforço →"
+    },
+    "radioKeyboard": "light",
+    "skip": {
+      "active": "conteudo",
+      "hash": "#conteudo"
+    },
+    "consoleOwn": [],
+    "image": {
+      "alt": "Capa da publicação Quem sou eu?, com Gisele Mara, seu nome e informações sobre sua trajetória como professora de matemática.",
+      "complete": true,
+      "width": 1080
+    }
+  },
+  "zoom": {
+    "baseline": {
+      "client": 1521,
+      "dpr": 1.25,
+      "scroll": 1521,
+      "width": 1536
+    },
+    "step": {
+      "client": 1521,
+      "dpr": 1.25,
+      "scroll": 1521,
+      "width": 1536
+    },
+    "verified200": false
+  },
+  "capture": "Captura direta screenshot fullPage:false; quadros de viewport. Primeiro Aprovados claro1440 retido e validado separadamente."
+}

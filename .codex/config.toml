@@ -1,0 +1,7 @@
+# Configuração de projeto do Codex. Pode ser necessário reiniciar a sessão.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 5
+
+# Os agentes herdam modelo, permissões e servidores MCP da sessão principal.
+# Não habilite acesso irrestrito ou ferramentas externas sem necessidade.

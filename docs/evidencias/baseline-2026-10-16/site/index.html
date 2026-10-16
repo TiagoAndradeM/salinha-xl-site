@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Protótipo ilustrativo de um site institucional, preparado para personalização após briefing." />
+  <meta name="theme-color" content="#f6f1eb" />
+  <title>Estúdio de Demonstração — Protótipo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <div class="demo-strip" role="note"><span class="demo-dot"></span> PROTÓTIPO · CONTEÚDO ILUSTRATIVO · PENDENTE DE BRIEFING</div>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início"><span class="brand-mark" aria-hidden="true">✳</span> SEU<span>ESTÚDIO</span><span class="brand-asterisk">*</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="mainNav" class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Proposta</a><a href="#servicos">Possibilidades</a><a href="#etapas">Processo</a><a class="nav-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="line"></span> UMA PRESENÇA DIGITAL COM INTENÇÃO</div>
+          <h1 id="hero-title">O próximo capítulo da sua <em>marca</em> começa aqui.</h1>
+          <p>Um exemplo de como um site pode apresentar seu trabalho com clareza, personalidade e uma experiência agradável para quem chega.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#servicos">Explorar o conceito <span aria-hidden="true">↗</span></a><a class="text-link" href="#sobre">Entenda a ideia <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-footnote"><span class="small-star">✳</span> Layout conceitual, ainda sem informações de um negócio real.</div>
+        </div>
+        <div class="hero-art" aria-label="Composição gráfica abstrata ilustrativa de formas e tipografia" role="img">
+          <div class="art-label">CONCEITO / 01</div><div class="art-oval"></div><div class="art-ring"></div><div class="art-block">ESSÊNCIA<br/><i>&</i> PRESENÇA</div><div class="art-bottom">Um design que comunica antes mesmo das palavras.</div>
+        </div>
+      </div>
+    </section>
+    <section class="statement" id="sobre" aria-labelledby="sobre-title">
+      <div class="container statement-inner"><p class="section-kicker">01 / A PROPOSTA</p><h2 id="sobre-title">Uma boa primeira impressão não precisa ser complicada. <span>Precisa fazer sentido.</span></h2><p>Esta estrutura serve para demonstrar a organização do conteúdo. A mensagem definitiva, o tom de voz e as imagens serão definidos junto com a cliente.</p></div>
+    </section>
+    <section class="services" id="servicos" aria-labelledby="servicos-title">
+      <div class="container"><div class="section-heading"><div><p class="section-kicker">02 / ESTRUTURA POSSÍVEL</p><h2 id="servicos-title">Um espaço para mostrar <em>o que importa.</em></h2></div><p>Exemplos de blocos que podem ser adaptados ao negócio depois do briefing.</p></div>
+      <div class="cards">
+        <article class="service-card"><span class="card-index">01</span><div class="card-symbol" aria-hidden="true">✺</div><h3>Apresentação</h3><p>Quem é a marca, seus diferenciais reais e por que as pessoas devem conhecê-la.</p><div class="card-tag">ILUSTRATIVO</div></article>
+        <article class="service-card"><span class="card-index">02</span><div class="card-symbol serif" aria-hidden="true">◎</div><h3>Serviços ou produtos</h3><p>Uma vitrine simples para mostrar as principais soluções com conteúdo verdadeiro.</p><div class="card-tag">ILUSTRATIVO</div></article>
+        <article class="service-card"><span class="card-index">03</span><div class="card-symbol" aria-hidden="true">↗</div><h3>Próximo passo</h3><p>Uma maneira fácil de entrar em contato, pedir orçamento ou agendar — quando definido.</p><div class="card-tag">ILUSTRATIVO</div></article>
+      </div></div>
+    </section>
+    <section class="steps" id="etapas" aria-labelledby="etapas-title"><div class="container steps-grid"><div><p class="section-kicker">03 / COMO EVOLUIR</p><h2 id="etapas-title">Primeiro entendemos. <em>Depois criamos.</em></h2></div><ol class="steps-list"><li><span>01</span><div><h3>Conversa inicial</h3><p>Conhecer o negócio, público, objetivos e preferências.</p></div></li><li><span>02</span><div><h3>Direção e protótipo</h3><p>Validar conteúdo, identidade e experiência antes de implementar.</p></div></li><li><span>03</span><div><h3>Construção e revisão</h3><p>Desenvolver, testar e ajustar com aprovação a cada etapa.</p></div></li></ol></div></section>
+    <section class="contact" id="contato" aria-labelledby="contato-title"><div class="container contact-inner"><p class="section-kicker">04 / O PRÓXIMO PASSO</p><h2 id="contato-title">Vamos construir algo que tenha <em>a sua cara?</em></h2><p>Esta é uma demonstração de possibilidades. O canal de contato real, a identidade da marca e os conteúdos serão definidos após a conversa inicial.</p><span class="contact-note">CONTATO REAL A DEFINIR NO BRIEFING</span></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span class="brand">SEU<span>ESTÚDIO</span>*</span><p>Protótipo para apresentação comercial. Nenhuma informação de cliente foi utilizada.</p><span id="year"></span></div></footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "laboratorio-equipe-agentes-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test scripts/check.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

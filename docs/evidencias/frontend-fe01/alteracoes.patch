@@ -1,0 +1,72 @@
+warning: in the working copy of 'docs/evidencias/baseline-2026-10-16/site/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/frontend-fe01/site/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/baseline-2026-10-16/site/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/frontend-fe01/site/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/baseline-2026-10-16/site/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/frontend-fe01/site/styles.css', LF will be replaced by CRLF the next time Git touches it
+diff --git a/docs/evidencias/baseline-2026-10-16/site/index.html b/docs/evidencias/frontend-fe01/site/index.html
+index f83079d..9091caf 100644
+--- a/docs/evidencias/baseline-2026-10-16/site/index.html
++++ b/docs/evidencias/frontend-fe01/site/index.html
+@@ -3,9 +3,9 @@
+ <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+-  <meta name="description" content="Protótipo ilustrativo de um site institucional, preparado para personalização após briefing." />
+-  <meta name="theme-color" content="#f6f1eb" />
+-  <title>Estúdio de Demonstração — Protótipo</title>
++  <meta name="description" content="Demonstração de site para aulas de matemática. Conteúdo ilustrativo e detalhes sujeitos ao briefing." />
++  <meta name="theme-color" content="#FFF9FC" />
++  <title>Salinha da XL — Demonstração</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="main.js" defer></script>
+ </head>
+@@ -14,7 +14,7 @@
+   <div class="demo-strip" role="note"><span class="demo-dot"></span> PROTÓTIPO · CONTEÚDO ILUSTRATIVO · PENDENTE DE BRIEFING</div>
+   <header class="header">
+     <div class="container header-inner">
+-      <a class="brand" href="#inicio" aria-label="Voltar ao início"><span class="brand-mark" aria-hidden="true">✳</span> SEU<span>ESTÚDIO</span><span class="brand-asterisk">*</span></a>
++      <a class="brand" href="#inicio" aria-label="Salinha da XL — início"><span class="brand-mark" aria-hidden="true">×</span> Salinha da XL</a>
+       <button class="menu-toggle" id="menuToggle" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">Menu <span aria-hidden="true">☰</span></button>
+       <nav id="mainNav" class="nav" aria-label="Navegação principal">
+         <a href="#sobre">Proposta</a><a href="#servicos">Possibilidades</a><a href="#etapas">Processo</a><a class="nav-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+@@ -25,14 +25,14 @@
+     <section class="hero" id="inicio" aria-labelledby="hero-title">
+       <div class="container hero-grid">
+         <div class="hero-copy">
+-          <div class="eyebrow"><span class="line"></span> UMA PRESENÇA DIGITAL COM INTENÇÃO</div>
+-          <h1 id="hero-title">O próximo capítulo da sua <em>marca</em> começa aqui.</h1>
+-          <p>Um exemplo de como um site pode apresentar seu trabalho com clareza, personalidade e uma experiência agradável para quem chega.</p>
+-          <div class="hero-actions"><a class="button button-primary" href="#servicos">Explorar o conceito <span aria-hidden="true">↗</span></a><a class="text-link" href="#sobre">Entenda a ideia <span aria-hidden="true">↓</span></a></div>
+-          <div class="hero-footnote"><span class="small-star">✳</span> Layout conceitual, ainda sem informações de um negócio real.</div>
++          <div class="eyebrow"><span class="line"></span> MATEMÁTICA PARA DIFERENTES OBJETIVOS</div>
++          <h1 id="hero-title">Qual é o seu próximo passo na <em>matemática?</em></h1>
++          <p>Uma proposta de site para apresentar aulas de matemática, do reforço à preparação para vestibulares. Formatos e detalhes serão confirmados no briefing.</p>
++          <div class="hero-actions"><a class="button button-primary" href="#servicos">Conhecer as possibilidades <span aria-hidden="true">↗</span></a><a class="text-link" href="#sobre">Entender a proposta <span aria-hidden="true">↓</span></a></div>
++          <div class="hero-footnote">Conteúdo demonstrativo; não representa oferta comercial aprovada.</div>
+         </div>
+-        <div class="hero-art" aria-label="Composição gráfica abstrata ilustrativa de formas e tipografia" role="img">
+-          <div class="art-label">CONCEITO / 01</div><div class="art-oval"></div><div class="art-ring"></div><div class="art-block">ESSÊNCIA<br/><i>&</i> PRESENÇA</div><div class="art-bottom">Um design que comunica antes mesmo das palavras.</div>
++        <div class="hero-art" aria-hidden="true">
++          <div class="art-label">MATEMÁTICA / POSSIBILIDADES</div><div class="art-oval"></div><div class="art-ring"></div><div class="art-block">x + y<br/><i>=</i> novos passos</div><div class="art-bottom">Cada próximo passo começa com uma possibilidade.</div>
+         </div>
+       </div>
+     </section>
+@@ -50,6 +50,6 @@
+     <section class="steps" id="etapas" aria-labelledby="etapas-title"><div class="container steps-grid"><div><p class="section-kicker">03 / COMO EVOLUIR</p><h2 id="etapas-title">Primeiro entendemos. <em>Depois criamos.</em></h2></div><ol class="steps-list"><li><span>01</span><div><h3>Conversa inicial</h3><p>Conhecer o negócio, público, objetivos e preferências.</p></div></li><li><span>02</span><div><h3>Direção e protótipo</h3><p>Validar conteúdo, identidade e experiência antes de implementar.</p></div></li><li><span>03</span><div><h3>Construção e revisão</h3><p>Desenvolver, testar e ajustar com aprovação a cada etapa.</p></div></li></ol></div></section>
+     <section class="contact" id="contato" aria-labelledby="contato-title"><div class="container contact-inner"><p class="section-kicker">04 / O PRÓXIMO PASSO</p><h2 id="contato-title">Vamos construir algo que tenha <em>a sua cara?</em></h2><p>Esta é uma demonstração de possibilidades. O canal de contato real, a identidade da marca e os conteúdos serão definidos após a conversa inicial.</p><span class="contact-note">CONTATO REAL A DEFINIR NO BRIEFING</span></div></section>
+   </main>
+-  <footer class="footer"><div class="container footer-inner"><span class="brand">SEU<span>ESTÚDIO</span>*</span><p>Protótipo para apresentação comercial. Nenhuma informação de cliente foi utilizada.</p><span id="year"></span></div></footer>
++  <footer class="footer"><div class="container footer-inner"><span class="brand">Salinha da XL</span><p>Protótipo com referências fornecidas e observadas. Conteúdo sujeito ao briefing e à aprovação.</p><span id="year"></span></div></footer>
+ </body>
+ </html>
+diff --git a/docs/evidencias/baseline-2026-10-16/site/styles.css b/docs/evidencias/frontend-fe01/site/styles.css
+index 287b42a..7470a6f 100644
+--- a/docs/evidencias/baseline-2026-10-16/site/styles.css
++++ b/docs/evidencias/frontend-fe01/site/styles.css
+@@ -3,3 +3,5 @@
+ @media(max-width:900px){.hero-grid{gap:35px}.hero-art{min-height:445px}.hero{padding:55px 0 75px}.statement-inner{grid-template-columns:1fr;gap:14px}.statement-inner>p:last-child{grid-column:1}.steps-grid{gap:48px}.nav{gap:18px}.nav a{font-size:12px}}
+ @media(max-width:680px){.container{width:min(100% - 34px,540px)}.demo-strip{font-size:9px}.header-inner{min-height:75px}.menu-toggle{display:flex;align-items:center;gap:9px;border:1px solid var(--line);background:none;padding:9px 11px;font-size:12px}.nav{display:none;position:absolute;z-index:3;top:108px;left:0;right:0;background:var(--bg);padding:18px 24px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:17px}.nav.open{display:flex}.nav-cta{text-align:center}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(46px,12vw,65px)}.hero-copy>p{font-size:15px}.hero-art{min-height:385px}.hero-footnote{margin-top:35px}.statement,.services,.steps,.contact{padding:75px 0}.section-heading{display:block}.section-heading>p{margin-top:20px;max-width:360px}.cards{grid-template-columns:1fr}.service-card{min-height:270px}.steps-grid{grid-template-columns:1fr;gap:32px}.footer-inner{flex-direction:column;text-align:center}.contact h2{font-size:44px}}
+ @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.service-card{transition:none}.service-card:hover{transform:none}}
++/* FE-01: direção clara/rosa limitada à primeira dobra. */
++.demo-strip{background:#FFE3F0;color:#241921;font-size:13px;letter-spacing:.06em;min-height:38px}.demo-dot{background:#B51B64}.header,.hero{background:#FFF9FC;color:#241921}.header{border-color:#D9BBCB}.header .brand{letter-spacing:-.03em;font-size:22px}.header .brand-mark{color:#B51B64}.header .nav-cta{background:#241921}.header a:focus-visible,.hero a:focus-visible{outline-color:#6F2DBD}.hero .eyebrow{color:#65515F;font-size:12px;letter-spacing:.08em}.hero .line{background:#B51B64}.hero h1{font-family:system-ui,'Segoe UI',Arial,sans-serif;font-weight:650;font-size:clamp(36px,4.6vw,64px);letter-spacing:-.055em}.hero h1 em{font-family:inherit;font-style:normal;color:#B51B64;font-weight:inherit}.hero-copy>p{color:#65515F}.hero .button-primary{background:#B51B64;color:#FFFFFF;border-radius:8px}.hero .button-primary:hover{background:#95134F}.hero .hero-footnote{font-size:14px;color:#65515F}.hero .hero-art{background:#FCE7F1;min-height:420px;border-radius:16px}.hero-art:before{background:linear-gradient(transparent 95%,#D9BBCB 95%),linear-gradient(90deg,transparent 95%,#D9BBCB 95%);background-size:30px 30px}.hero .art-label,.hero .art-bottom{color:#65515F;font-size:12px}.hero .art-oval{background:#B51B64;box-shadow:32px 46px 0 8px #E8B1CB}.hero .art-ring{border-color:#65515F}.hero .art-block{color:#241921;font-size:clamp(32px,3.7vw,50px)}.hero .art-block i{color:#FFFFFF}.footer p,.footer #year{color:#61675F}.card-index,.card-tag{color:#61675F}@media(max-width:680px){.header .nav{background:#FFF9FC}.hero .hero-art{min-height:310px}.hero .hero-footnote{margin-top:28px}.hero .hero-actions{gap:20px}.hero .eyebrow{font-size:11px}.hero h1{font-size:clamp(36px,10.2vw,60px)}}
