@@ -4,6 +4,8 @@ Site demonstrativo de aulas de matemática, com Sobre mim, página Aprovados e c
 
 **Demonstração hospedada pelo responsável:** https://tiny-salad-c306.tiagoandrademarques26.workers.dev/
 
+**Código no GitHub:** https://github.com/TiagoAndradeM/salinha-xl-site
+
 O responsável informou esse endereço nesta conversa. O envio ao GitHub versiona o projeto; a configuração de deploy automático da hospedagem é uma etapa separada.
 
 ## Processo da equipe
