@@ -1,0 +1,65 @@
+Trecho dos logs do job 117245168380, execução 38982130329.
+Fonte: https://github.com/TiagoAndradeM/salinha-xl-site/actions/runs/38982130329
+Commit: bfba8a74bcda76d346648c21b4ad212c611e36d8
+Extração do comando npm test até o resumo TAP; restante do log omitido.
+
+2026-10-16T23:34:20.5643583Z ##[group]Run npm test
+2026-10-16T23:34:20.5644217Z npm test
+2026-10-16T23:34:20.6271397Z shell: /usr/bin/bash -e {0}
+2026-10-16T23:34:20.6272038Z ##[endgroup]
+2026-10-16T23:34:20.7700113Z 
+2026-10-16T23:34:20.7705593Z > laboratorio-equipe-agentes-site@0.1.0 test
+2026-10-16T23:34:20.7706563Z > node --test scripts/check.test.mjs
+2026-10-16T23:34:20.7707020Z 
+2026-10-16T23:34:20.7983489Z TAP version 13
+2026-10-16T23:34:20.8341775Z # Subtest: duas páginas possuem idioma, metadados, landmarks e um único h1
+2026-10-16T23:34:20.8344278Z ok 1 - duas páginas possuem idioma, metadados, landmarks e um único h1
+2026-10-16T23:34:20.8345714Z   ---
+2026-10-16T23:34:20.8346467Z   duration_ms: 1.078326
+2026-10-16T23:34:20.8347302Z   type: 'test'
+2026-10-16T23:34:20.8348016Z   ...
+2026-10-16T23:34:20.8349251Z # Subtest: links locais, âncoras e recursos existem nas duas páginas
+2026-10-16T23:34:20.8350992Z ok 2 - links locais, âncoras e recursos existem nas duas páginas
+2026-10-16T23:34:20.8352351Z   ---
+2026-10-16T23:34:20.8353110Z   duration_ms: 3.32948
+2026-10-16T23:34:20.8354093Z   type: 'test'
+2026-10-16T23:34:20.8354800Z   ...
+2026-10-16T23:34:20.8356119Z # Subtest: avisos claros, sem formulário, contato inventado ou ação simulada
+2026-10-16T23:34:20.8358007Z ok 3 - avisos claros, sem formulário, contato inventado ou ação simulada
+2026-10-16T23:34:20.8359285Z   ---
+2026-10-16T23:34:20.8360006Z   duration_ms: 0.370308
+2026-10-16T23:34:20.8360800Z   type: 'test'
+2026-10-16T23:34:20.8361504Z   ...
+2026-10-16T23:34:20.8362789Z # Subtest: biografia possui figura original, data e atribuição rastreável
+2026-10-16T23:34:20.8364396Z ok 4 - biografia possui figura original, data e atribuição rastreável
+2026-10-16T23:34:20.8365245Z   ---
+2026-10-16T23:34:20.8365747Z   duration_ms: 0.674847
+2026-10-16T23:34:20.8366310Z   type: 'test'
+2026-10-16T23:34:20.8366854Z   ...
+2026-10-16T23:34:20.8368057Z # Subtest: aprovações preservam registros e apenas os dois comentários reais
+2026-10-16T23:34:20.8369989Z ok 5 - aprovações preservam registros e apenas os dois comentários reais
+2026-10-16T23:34:20.8371282Z   ---
+2026-10-16T23:34:20.8371984Z   duration_ms: 0.249426
+2026-10-16T23:34:20.8373033Z   type: 'test'
+2026-10-16T23:34:20.8373871Z   ...
+2026-10-16T23:34:20.8375460Z # Subtest: controle de tema nativo, navegação progressiva e proteções de acessibilidade presentes
+2026-10-16T23:34:20.8377871Z ok 6 - controle de tema nativo, navegação progressiva e proteções de acessibilidade presentes
+2026-10-16T23:34:20.8378973Z   ---
+2026-10-16T23:34:20.8379458Z   duration_ms: 0.326022
+2026-10-16T23:34:20.8380002Z   type: 'test'
+2026-10-16T23:34:20.8380613Z   ...
+2026-10-16T23:34:20.8381879Z # Subtest: paletas mantêm contraste de texto e foco nas superfícies usadas
+2026-10-16T23:34:20.8384087Z ok 7 - paletas mantêm contraste de texto e foco nas superfícies usadas
+2026-10-16T23:34:20.8385361Z   ---
+2026-10-16T23:34:20.8386067Z   duration_ms: 0.453694
+2026-10-16T23:34:20.8386870Z   type: 'test'
+2026-10-16T23:34:20.8387592Z   ...
+2026-10-16T23:34:20.8391648Z 1..7
+2026-10-16T23:34:20.8392376Z # tests 7
+2026-10-16T23:34:20.8393061Z # suites 0
+2026-10-16T23:34:20.8393906Z # pass 7
+2026-10-16T23:34:20.8394581Z # fail 0
+2026-10-16T23:34:20.8395263Z # cancelled 0
+2026-10-16T23:34:20.8396009Z # skipped 0
+2026-10-16T23:34:20.8396688Z # todo 0
+2026-10-16T23:34:20.8397418Z # duration_ms 47.823407

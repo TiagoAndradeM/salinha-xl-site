@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/TiagoAndradeM/salinha-xl-site",
+  "visibility": "public",
+  "branch": "main",
+  "head_sha": "bfba8a74bcda76d346648c21b4ad212c611e36d8",
+  "workflow_run": {
+    "id": 38982130329,
+    "url": "https://github.com/TiagoAndradeM/salinha-xl-site/actions/runs/38982130329",
+    "status": "completed",
+    "conclusion": "success",
+    "event": "push",
+    "created_at": "2026-10-16T23:34:14Z",
+    "updated_at": "2026-10-16T23:34:23Z"
+  },
+  "job": {
+    "id": 117245168380,
+    "name": "test",
+    "command": "npm test",
+    "tests": 7,
+    "pass": 7,
+    "fail": 0
+  },
+  "scope": "Primeiro envio. O próximo commit apenas registra esta evidência e atualiza documentação; este JSON não declara teste de um commit futuro."
+}
