@@ -4,7 +4,7 @@
 
 ## Problema e proposta de valor
 
-A demonstração atual apresenta uma estrutura genérica de estúdio. Ela ainda não permite avaliar com clareza como um site pode apresentar as aulas de matemática da potencial cliente.
+A demonstração inicial era uma estrutura genérica de estúdio. Esse problema já foi tratado na primeira versão de matemática, entregue em 16/10. O pedido de 19/10 é comparar melhorias no Figma antes de alterar o site; estado e roteiro em `docs/11-prototipagem.md`. As opções de escopo abaixo registram a análise inicial.
 
 A proposta é organizar a apresentação e o próximo passo de quem procura aulas. **HIPÓTESE DE VALOR:** tornar mais claras as ofertas pode reduzir dúvidas antes do contato. Não há medição de conversão, economia de tempo, desempenho educacional ou retorno financeiro.
 

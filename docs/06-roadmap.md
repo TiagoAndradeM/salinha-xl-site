@@ -1,4 +1,14 @@
-# Plano de execução incremental
+# Próximos passos
+
+Atualizado em 19/10/2026.
+
+1. **Relatos simples — equipe:** instruções dos cinco agentes e novos modelos já atualizados; explicações em `docs/relatorios/`.
+2. **Comparar no Figma — dono do projeto e design:** referência atual e “Caminhos primeiro” em telas de computador/celular. Roteiro em `docs/11-prototipagem.md`. Falta completar a revisão de todas as telas e usar os cliques da apresentação com login.
+3. **Conferir a entrega — orquestrador e observador:** validar configurações, rodar os testes do site e revisar os arquivos da rodada. Commit/push solicitados pelo humano, se o acesso estiver funcionando.
+4. **Escolher uma mudança pequena — dono do projeto:** registrar o que ajudou e o que atrapalhou. Ainda não há versão vencedora nem pesquisa com pessoas.
+5. **Alterar o site — frontend, após a escolha:** implementar somente o ajuste escolhido, testar e mostrar a diferença. Os arquivos do site não mudam nesta rodada de protótipo.
+
+## Plano inicial de 16/10 — histórico
 
 **Atualizado em:** 16/10/2026. Documentação e pareceres não autorizam implementação. Estado comprovado: `docs/07-status.md`.
 

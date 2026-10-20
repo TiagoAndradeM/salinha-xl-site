@@ -1,5 +1,7 @@
 # Design — proposta pré-briefing para Salinha da XL
 
+**Rodada atual — 19/10:** protótipos editáveis e comparação da organização em [Vamos comparar as duas versões](11-prototipagem.md). Explicação curta em [relato de design](relatorios/designer.md). A auditoria abaixo é o histórico da primeira versão.
+
 **Atualizado em:** 16/10/2026. **Estado vigente:** direção A e implementação aprovadas pelo dono do produto. O pedido posterior ampliou a experiência para home completa, Sobre mim, página Aprovados e prévias A/B. Contrato vigente em `docs/10-fontes-conteudo.md` substitui os limites antigos de FE-01 quando explicitado. HEX continuam propostas, sem identidade oficial aprovada pela cliente. Auditoria inicial preservada abaixo.
 
 ## 1. Fontes, evidências e limites

@@ -18,6 +18,14 @@ Entregar um site demonstrativo de qualidade sem inventar informações de uma cl
 4. `docs/03-arquitetura.md`, `docs/04-contratos.md`, `docs/05-design.md`.
 5. Código e testes reais. Quando código e documentos divergem, sinalize.
 
+## Como conversar e escrever os relatórios
+- Escreva para o dono do projeto, que está aprendendo. Use português do dia a dia, frases curtas e exemplos do próprio site.
+- O relatório principal de cada agente fica em `docs/relatorios/`. Use `docs/templates/relatorio-agente.md` e responda: o que usei ou observei; o que escolhi; por quê; o que conferi; o que ainda falta; qual é o próximo passo.
+- Explique termos técnicos na primeira vez. Exemplo: “CSS cuida das cores e dos espaços”. Evite siglas, semáforos, tabelas de gestão, linguagem corporativa e listas extensas no resumo.
+- Diga claramente quando uma ideia ainda é uma tentativa. Não chame uma preferência de resultado de teste. Separe o que executou agora do que apenas leu em uma evidência antiga.
+- Coloque comandos, arquivos, imagens e detalhes técnicos depois da explicação curta, em links. Preserve as provas; simplificar a linguagem não permite inventar resultados.
+- O fluxo atual é comparar no Figma antes de alterar a aparência do site. Não implementar a alternativa sem a escolha do dono do produto. A criação de protótipos, os ajustes dos relatórios e o commit/push desta rodada já foram solicitados; não pedir essa autorização novamente.
+
 ## Fatos versus hipóteses
 Qualquer dado não confirmado da cliente deve conter `HIPÓTESE`, `ILUSTRATIVO` ou `PENDENTE DE BRIEFING`. Nunca inventar depoimentos, números, preços, redes sociais, nomes, resultados, endereços, dados pessoais ou marcas.
 

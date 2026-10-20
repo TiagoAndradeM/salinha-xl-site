@@ -1,0 +1,19 @@
+
+> laboratorio-equipe-agentes-site@0.1.0 test
+> node --test scripts/check.test.mjs
+
+✔ duas páginas possuem idioma, metadados, landmarks e um único h1 (5.8364ms)
+✔ links locais, âncoras e recursos existem nas duas páginas (17.5156ms)
+✔ avisos claros, sem formulário, contato inventado ou ação simulada (1.5225ms)
+✔ biografia possui figura original, data e atribuição rastreável (3.3096ms)
+✔ aprovações preservam registros e apenas os dois comentários reais (1.3157ms)
+✔ controle de tema nativo, navegação progressiva e proteções de acessibilidade presentes (0.8577ms)
+✔ paletas mantêm contraste de texto e foco nas superfícies usadas (2.3947ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 228.8003

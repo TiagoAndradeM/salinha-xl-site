@@ -6,6 +6,10 @@ Site demonstrativo de aulas de matemática, com Sobre mim, página Aprovados e c
 
 **Código no GitHub:** https://github.com/TiagoAndradeM/salinha-xl-site
 
+**Protótipos no Figma:** https://www.figma.com/design/gSo2f1TKL4c7w4trJgQxE2?node-id=6-3
+
+Para entender as escolhas sem um relatório técnico longo, comece por [O que cada agente fez e por quê](docs/relatorios/README.md). Para experimentar as alternativas, veja [Vamos comparar as duas versões](docs/11-prototipagem.md).
+
 O responsável informou esse endereço nesta conversa. O envio ao GitHub versiona o projeto; a configuração de deploy automático da hospedagem é uma etapa separada.
 
 ## Processo da equipe

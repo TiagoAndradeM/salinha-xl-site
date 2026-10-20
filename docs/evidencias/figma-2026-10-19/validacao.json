@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "fileKey": "gSo2f1TKL4c7w4trJgQxE2",
+  "fileUrl": "https://www.figma.com/design/gSo2f1TKL4c7w4trJgQxE2?node-id=6-3",
+  "mainScreens": 8,
+  "flows": 4,
+  "menuDestinationScreens": 6,
+  "reusableComponents": 6,
+  "sourceSiteModified": false,
+  "renderedEvidence": [
+    "arquivo-no-figma.png",
+    "caminhos-primeiro-celular.png"
+  ],
+  "inspection": {
+    "firstHomeScreenshots": "Revelaram cabeçalho alto e navegação fora do quadro; correção aplicada aos componentes.",
+    "afterFix": "Captura final de B no celular e imagem do arquivo no navegador mostram navegação visível. Demais capturas finais não realizadas: limite da integração.",
+    "editableLayers": "Oito telas retornaram TEXT, INSTANCE, FRAME e, onde há foto, RECTANGLE com imagem. Captura temporária 2:2 removida.",
+    "clickTesting": "Não concluído: apresentação pediu login na sessão de navegador. Ligações configuradas por API; isso não comprova uso completo.",
+    "userTesting": "Não realizado; roteiro em docs/11-prototipagem.md."
+  },
+  "fonts": {
+    "site": "system-ui, Segoe UI, Arial",
+    "figma": "Inter",
+    "reason": "Segoe UI/Arial ausentes na lista de fontes disponíveis; a captura usou Inter e a reconstrução manteve a aproximação nas duas opções."
+  },
+  "figmaLimit": "Plano Starter/View confirmado por whoami após erro de limite. Não houve contratação nem troca de plano.",
+  "automaticSiteTests": {
+    "command": "npm test (npm portátil oficial)",
+    "pass": 7,
+    "fail": 0,
+    "log": "npm-test.txt"
+  },
+  "configurationCheck": {
+    "command": "Python 3.13 tomllib",
+    "agentsParsed": 5,
+    "result": "válidos"
+  }
+}

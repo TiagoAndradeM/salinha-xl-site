@@ -1,5 +1,7 @@
 # Log de decisões
 
+**Pedido de 19/10/2026:** o dono do projeto pediu relatos simples, explicando o que cada agente usou e por quê. Também pediu primeiro prototipar no Figma e comparar melhorias. Autorizou commit e push se o acesso ao GitHub estivesse funcionando. O acesso de push foi confirmado pelo conector; a execução será registrada no status. Essa autorização cobre os relatórios, instruções, protótipos e provas da rodada; não escolhe uma versão para implementação no site.
+
 **Atualizado em:** 16/10/2026. Aprovação do processo não equivale a aprovação de conteúdo, design ou implementação. Agentes não autoaprovam propostas de negócio.
 
 | ID | Data | Estado | Decisão ou proposta | Fundamentação e autoridade |

@@ -31,7 +31,7 @@ O destaque público em ENEM e o relato humano sobre reforço e diferentes idades
 - A baseline era uma página genérica de estúdio. Após aprovação, há home em `site/index.html` com aulas/Sobre mim e `site/aprovados.html`, com fontes rastreadas em `docs/10-fontes-conteudo.md`.
 - Conteúdo, estilo e interação estão separados em `site/index.html`, `site/styles.css` e `site/main.js`.
 - Avisos, navegação, tema e menu foram implementados; a suíte final passou 7/7 e o navegador foi inspecionado em duas páginas/dois temas de 320 a 1440px. Zoom 200% e revisão humana permanecem pendentes; detalhes em `docs/evidencias/qa-2026-10-16/README.md`.
-- A pasta atual não é um repositório Git. Evidência de alteração deverá usar comparação com snapshot local, sem inicializar Git nesta fase.
+- O projeto foi enviado ao repositório público `TiagoAndradeM/salinha-xl-site` após autorização do humano em 16/10. Os snapshots anteriores foram preservados como histórico. Em 19/10, o pedido é simplificar relatos e comparar no Figma antes de mudar o site; ver `docs/11-prototipagem.md`.
 
 ## Hipóteses — NÃO CONFIRMADAS
 
