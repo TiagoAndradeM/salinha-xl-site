@@ -21,4 +21,3 @@ for(const id of ['6:5','10:501']){
  mutated.push(root.id,hero.id,left.id);
 }
 return {mutatedNodeIds:[...new Set(mutated)],headerDesktopHeight:(await figma.getNodeByIdAsync('9:727')).height,headerMobileHeight:(await figma.getNodeByIdAsync('9:735')).height,reason:'Corrigir larguras da navegação e aproximar as duas escolhas no celular; componentes corrigem também as instâncias.'};
-

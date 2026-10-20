@@ -40,4 +40,3 @@ for(const[key,id]of Object.entries(DATA.menuFrames)){
 const capture=await figma.getNodeByIdAsync('2:2');if(capture)capture.remove();
 const a=await figma.getNodeByIdAsync('6:2');const z=await figma.getNodeByIdAsync('6:3');figma.viewport.scrollAndZoomIntoView([a,z]);
 return {createdNodeIds:[...new Set(created)],mutatedNodeIds:[...new Set(mutated)],removedNodeIds:['2:2'],anchors,fixedReactionCount:DATA.reactionFailures.length,planAdaptation:'Menus usam um único destino por clique; telas de destino preservam a seção visível sem exigir ações avançadas do plano.'};
-

@@ -12,6 +12,6 @@ O orquestrador rodou novamente os testes do site: sete passaram, sem falhas. Tam
 
 Falta revisar todas as telas e percorrer os cliques na apresentação. O navegador pediu login e a integração do Figma chegou ao limite de chamadas. As ligações foram configuradas e corrigidas, mas isso não comprova o percurso completo. Não houve teste com pessoas.
 
-O próximo passo é entrar no Figma e seguir as [três tarefas de comparação](11-prototipagem.md). Depois o dono do projeto escolhe uma mudança pequena para o site. O envio desta rodada ao GitHub já está autorizado; sua execução ainda será registrada pelo orquestrador.
+O próximo passo é entrar no Figma e seguir as [três tarefas de comparação](11-prototipagem.md). Depois o dono do projeto escolhe uma mudança pequena para o site. O orquestrador enviou esta rodada ao GitHub no [commit 0259c7e](https://github.com/TiagoAndradeM/salinha-xl-site/commit/0259c7e22de843a9053f71731f7a211d733dc2df), e a [verificação automática passou](https://github.com/TiagoAndradeM/salinha-xl-site/actions/runs/39346498919). O commit seguinte apenas consolida este registro e pequenos ajustes de formatação nos scripts de registro.
 
 [Provas desta rodada](evidencias/figma-2026-10-19/validacao.json) · [Testes de 19/10](evidencias/figma-2026-10-19/npm-test.txt) · [Minha conferência](relatorios/observador.md). O [histórico de 16/10](historico/07-status-2026-10-16.md) preserva os detalhes anteriores, incluindo o zoom de 200% ainda não comprovado.
